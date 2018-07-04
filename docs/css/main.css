@@ -80,6 +80,8 @@ body {
     background-color: #38383a;
     padding-top: 23px;
     padding-bottom: 23px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 .navigation ul {
@@ -97,6 +99,7 @@ body {
 .navigation li {
   margin: 0;
   padding: 0;
+  display: block;
 }
 .navigation a {
   color: #FFF;
@@ -152,6 +155,7 @@ body {
 .container--mobile--no-padding {
   padding-left: 0;
   padding-right: 0;
+  width: 100%;
 }
 @media (min-width: 992px) {
   .container--mobile--no-padding {
