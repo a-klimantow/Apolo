@@ -1,0 +1,72 @@
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+html {
+  font-size: 10px;
+  line-height: 1.4;
+}
+body {
+  font-size: 1.6rem;
+  font-family: 'Noto Sans';
+}
+.block {
+  background: #ffdb4c;
+  padding: 20px;
+  color: #000;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 0;
+}
+.nav {
+  background-color: #555;
+}
+.slider {
+  background-color: blue;
+}
+.line {
+  border-top: 1px solid #eaeff5;
+}
+.footer {
+  background-color: #252525;
+}
+/*============ Desktop First Method ==============*/
+/* Large Devices, Wide Screen - adaptive styles bofore 1200px */
+/* Medium Devices, Desktops - adaptive styles bofore 992px */
+/* Extra Small Devices, Phone - adaptive styles bofore 480px */
+/* Custom, iPhone Retina - adaptive styles bofore 320px */
+.logo {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.logo__name {
+  font-size: 33px;
+  line-height: 1.5;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 5.5px;
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .logo__name {
+    font-size: 38px;
+    letter-spacing: 7px;
+  }
+}
+.logo__slogan {
+  font-size: 14px;
+  color: #a1bbd9;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .logo__slogan {
+    font-size: 16px;
+    letter-spacing: 7px;
+  }
+}
