@@ -13,18 +13,6 @@
 		padding-right: 15px;
 	}
 
-	.container {
-		width: 100%;
-		padding: 0;
-		
-		@media (min-width: 992px) {
-			width: 940px;
-		}
-		@media (min-width: 1200px) {
-			width: 1140px;
-		}
-	}
-
 	ul {
 		display: none;
 		margin: 0;
@@ -98,3 +86,9 @@
 	background-color: #16385f;	 
 }
 
+.container--mobile--no-padding {
+	@media (max-width: 992px) {
+			width: 100%;
+			padding: 0;
+	}
+}
