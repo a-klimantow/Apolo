@@ -84,6 +84,20 @@ body {
     padding-right: 15px;
   }
 }
+.navigation .container {
+  width: 100%;
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .navigation .container {
+    width: 940px;
+  }
+}
+@media (min-width: 1200px) {
+  .navigation .container {
+    width: 1140px;
+  }
+}
 .navigation ul {
   display: none;
   margin: 0;
@@ -151,16 +165,4 @@ body {
 }
 .navigation__toggle-button--active {
   background-color: #16385f;
-}
-.container--mobile--no-padding {
-  padding-left: 0;
-  padding-right: 0;
-  max-width: 100%;
-}
-@media (min-width: 992px) {
-  .container--mobile--no-padding {
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 100%;
-  }
 }

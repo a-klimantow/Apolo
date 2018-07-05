@@ -13,6 +13,18 @@
 		padding-right: 15px;
 	}
 
+	.container {
+		width: 100%;
+		padding: 0;
+		
+		@media (min-width: 992px) {
+			width: 940px;
+		}
+		@media (min-width: 1200px) {
+			width: 1140px;
+		}
+	}
+
 	ul {
 		display: none;
 		margin: 0;
@@ -77,7 +89,6 @@
 		background-color: #16385f;
 	}
 	
-
 	@media (min-width: 992px) {
 		display: none;
 	}
@@ -87,14 +98,3 @@
 	background-color: #16385f;	 
 }
 
-.container--mobile--no-padding {
-	padding-left: 0;
-	padding-right: 0;
-	max-width: 100%;
-	
-	@media (min-width: 992px) {
-		padding-left: 15px;
-		padding-right: 15px;
-		max-width: 100%;
-	}
-}
