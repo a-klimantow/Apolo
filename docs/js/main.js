@@ -27,5 +27,15 @@ $(document).ready(function() {
 	    }
 	});
 
-	
+
+	// вызов слайдера
+	$("#top-slider").owlCarousel({
+		singleItem: true,
+		navigation: true,
+		theme: "top-slider-theme",
+		navigationText: [],
+		slideSpeed: 1000
+	});
+
 });
+
