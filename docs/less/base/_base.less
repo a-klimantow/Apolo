@@ -22,19 +22,78 @@ body {
 	@media (min-width: 1200px) {
 	font-size: 38px;
 	margin-bottom: 40px;
+	position: relative;
+	}
+
+	&--number-one::before {
+	height: 26px;
+	width: 26px;
+	background-color: #ffc80a;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: 700;
+	content: "1";
+	display: block;
+	-webkit-border-radius: 13px;
+	        border-radius: 13px;
+	text-align: center;
+	padding-top: 5px;
+	position: absolute;
+	left: 7px;
+	top: -42px;
+	@media (min-width: 1200px) {
+		left: -36px;
+		top: -22px;
+		}
+	}
+
+	&--number-two::before {
+	height: 26px;
+	width: 26px;
+	background-color: #ffc80a;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: 700;
+	content: "2";
+	display: block;
+	-webkit-border-radius: 13px;
+	        border-radius: 13px;
+	text-align: center;
+	padding-top: 5px;
+	position: absolute;
+	left: 7px;
+	top: -42px;
+	@media (min-width: 1200px) {
+		left: -36px;
+		top: -22px;
+		}
+	}
+	&--smaller-margin { 
+	margin-bottom: 20px;
+	margin-top: 35px;
+	}
+	&--margin-none {
+		margin-top: 0;
+	}
+	&--rocket-margin {
+		margin-top: 35px;
+		@media (min-width: 768px) {
+			margin-top: 0;
+		}
 	}
 }
 
-.heading--smaller-margin { 
-	margin-bottom: 20px;
-}
+
 
 .section {
 	padding-top: 60px;
-	padding-bottom: 67px;
+	padding-bottom: 40px;
 	&--padding {
 		padding-bottom: 0;
-		padding-top: 70px;
+		padding-top: 40px;
+		@media (min-width: 768px) {
+			padding-top: 70px;
+		}
 	}
 }
 
