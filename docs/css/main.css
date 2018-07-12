@@ -153,6 +153,7 @@ body {
 }
 .heading--smaller-margin--top {
   margin-top: 70px;
+  margin-bottom: 25px;
 }
 .heading--margin-none {
   margin-top: 0;
@@ -514,7 +515,8 @@ body {
   margin-bottom: 40px;
 }
 .benefit-block__text--padding-bottom {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
+  color: #777;
 }
 @media (min-width: 992px) {
   .service-description__img--padding-bottom {
