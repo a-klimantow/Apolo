@@ -200,8 +200,13 @@ body {
 /* Custom, iPhone Retina - adaptive styles bofore 320px */
 .logo {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 80px;
   padding-bottom: 40px;
+}
+@media (min-width: 992px) {
+  .logo {
+    padding-top: 30px;
+  }
 }
 .logo__name {
   font-size: 33px;
@@ -241,6 +246,16 @@ body {
   background-color: #35577d;
   -webkit-box-shadow: 0px 5px 10px 0px #2a496d;
   box-shadow: 0px 5px 10px 0px #2a496d;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+@media (min-width: 992px) {
+  .navigation {
+    position: static;
+  }
 }
 @media (min-width: 992px) {
   .navigation {
