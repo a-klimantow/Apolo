@@ -529,6 +529,7 @@ body {
 .benefit-block__text--padding-bottom {
   padding-bottom: 40px;
   color: #777;
+  font-size: 14px;
 }
 @media (min-width: 992px) {
   .service-description__img--padding-bottom {
@@ -669,6 +670,7 @@ body {
   margin-bottom: 25px;
   text-transform: uppercase;
   font-weight: 700;
+  letter-spacing: 0.24em;
 }
 .footer__nav {
   margin: 0;
